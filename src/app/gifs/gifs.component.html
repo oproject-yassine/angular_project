@@ -1,0 +1,11 @@
+<div class="fondo">
+    <div class="s006">
+        <form>
+            <div>
+                <h3>Seus Resultados</h3>
+                <button class="btn-search" type="button" onclick="javascript:location.href='/'">Pesquisar de novo</button>
+            </div>
+            <img [src]="gif.images.fixed_width.url" *ngFor="let gif of gifs.data" />
+        </form>
+    </div>
+</div>
